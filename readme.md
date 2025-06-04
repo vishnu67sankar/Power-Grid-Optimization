@@ -1,4 +1,4 @@
-# Active Learning for Electric Power Grid Simulations
+# Transfer Learning for Electric Power Grid Simulations
 This repo is a lightweight deep learning model, that is easy to install and understand without getting lost in other details. It uses Graph Neural Networks (GNNs) and Transformer-based models, to predict voltage and phases of electric power grids.
 
 The project uses PyTorch and PyTorch Geometric for building and training neural network models, and Pandapower for power system data simulation and manipulation.
