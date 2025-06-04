@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "powergrid_torch"
+version = "1.0.0"
+description = "Physics Informed Deep Learning Surrogate For Power Grid Simulations"
+authors = [{ name="Vishnu Sankar", email="vishnu67sankar@gmail.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11.0"
+
+[tool.setuptools]
+packages = ["powergrid_torch"]
+
+[tool.setuptools.package-dir]
+"" = "."
+
+[project.urls]
+Homepage = "https://your-repo-or-docs-link"
