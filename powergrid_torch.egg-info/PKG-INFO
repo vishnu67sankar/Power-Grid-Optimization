@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: powergrid_torch
-Version: 1.0.0
-Summary: Physics Informed Deep Learning Surrogate For Power Grid Simulations
-Author-email: Vishnu Sankar <vishnu67sankar@gmail.com>
-License: MIT
-Project-URL: Homepage, https://your-repo-or-docs-link
-Requires-Python: >=3.11.0
-Description-Content-Type: text/markdown
