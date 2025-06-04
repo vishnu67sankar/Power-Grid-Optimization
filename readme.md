@@ -5,30 +5,6 @@ The project uses PyTorch and PyTorch Geometric for building and training neural 
 
 This project was inspired by the following projects: https://github.com/Amirtalebi83/GNN-OptimalPowerFlow/tree/main and https://github.com/mukhlishga/gnn-powerflow/tree/main which discuss about general graph neural network approaches for the electric power grid problem.
 
-## Features
-
-* **Multiple GNN Architectures**: Implements various GNN layers (e.g., GCN, GraphConv, SAGEConv, GATConv, ChebConv, TransformerConv)
-* **Transformer Models**: Explores Graph Transformer
-* **Data Pre-processing**: Utilities for creating datasets from power grid data, suitable for GNN and Transformer model training
-* **Modular Training Framework**: A base model class (`PowerGridModelBase`) with standardized training and validation steps.
-* **Transfer Learning Capabilities**: Still a work in progress, to be designed with considerations for applying pre-trained models to different grid configurations (e.g. varying number of buses)
-
-## Project Structure
-
-Graph Neural Networks (GNNs) and Transformer-based models, to various optimization and prediction tasks within electrical power grids. The primary goal is to leverage the structural and relational data inherent in power systems to build models that can, for example, predict grid states, assess stability, or optimize power flow.
-
-The project utilizes PyTorch and PyTorch Geometric for building and training neural network models, and Pandapower for power system data simulation and manipulation.
-
-## Features
-
-* **Graph-Based Modeling**: Represents power grids as graphs to capture topological information
-* **Multiple GNN Architectures**: Implements various GNN layers (e.g., GCN, GraphConv, SAGEConv, GATConv, ChebConv, TransformerConv) for node-level predictions
-* **Transformer Models**: Graph Transformers
-* **Data Pre-processing**: Utilities for creating datasets from power grid data, suitable for GNN and Transformer model training
-* **Modular Training Framework**: A base model class (`PowerGridModelBase`) with standardized training and validation steps
-* **Data Exploration**: Jupyter notebooks for data analysis, visualization (using Plotly), and model experimentation
-* **Transfer Learning Capabilities**: Designed with considerations for applying pre-trained models to different grid configurations (e.g., varying number of buses)
-
 ## Project Structure
 <pre lang="markdown">
 Power Grid Optimization/
@@ -55,6 +31,15 @@ Power Grid Optimization/
 └── setup.py                          
 </pre>
 
+
+## Features
+
+* **Multiple GNN Architectures**: Implements various GNN layers (e.g., GCN, GraphConv, SAGEConv, GATConv, ChebConv, TransformerConv)
+* **Transformer Models**: Explores Graph Transformer
+* **Data Pre-processing**: Utilities for creating datasets from power grid data, suitable for GNN and Transformer model training
+* **Modular Training Framework**: A base model class (`PowerGridModelBase`) with standardized training and validation steps.
+* **Transfer Learning Capabilities**: Still a work in progress, to be designed with considerations for applying pre-trained models to different grid configurations (e.g. varying number of buses)
+
 ## Dependencies
 
 The primary dependencies for this project include:
@@ -66,13 +51,13 @@ The primary dependencies for this project include:
 * NumPy
 * Matplotlib 
 
-**Installation (Recommended Setup):**
+**Installation Steps:**
 
 1.  **PyTorch:**
-    Follow the instructions on the [official PyTorch website](https://pytorch.org/get-started/locally/) for your specific OS and CUDA version (if using GPU).
+    Follow the instructions on the [official PyTorch website](https://pytorch.org/get-started/locally/) for your specific OS and CUDA version (if using GPU)
 
 2.  **PyTorch Geometric:**
-    Follow the instructions on the [PyTorch Geometric documentation](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html), ensuring compatibility with your PyTorch version.
+    Follow the instructions on the [PyTorch Geometric documentation](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html), make sure it is compatibile with your PyTorch version
 
 3.  **Other Dependencies:**
     ```
