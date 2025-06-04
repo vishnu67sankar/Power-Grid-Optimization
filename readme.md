@@ -64,6 +64,11 @@ The primary dependencies for this project include:
     pip install pandapower numpy matplotlib plotly torchinfo jupyterlab
     ```
 
+4. Now clone this repo, and install this project as
+    ```
+    pip install -e .
+    ```
+
 ## Models
 
 This project explores several types of neural network architectures:
